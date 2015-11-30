@@ -1,9 +1,9 @@
 {
   "name": "show-id",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Force show IDs in dropdowns",
   "dependencies": {},
   "index": "index.js",
   "author": "orzFly",
-  "homepage": "https://github.com/orzFly/RMMVMod"
+  "homepage": "https://github.com/RMMVMod/mod-show-id"
 }
