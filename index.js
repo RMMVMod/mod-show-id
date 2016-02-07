@@ -1,9 +1,9 @@
 var ModAPI = require('modapi')
 var _ = require('lodash')
 
-var qml = ModAPI.QMLFile("Singletons/DataManager.qml")
+var qml = ModAPI.QMLFileV2("Singletons/DataManager.qml")
 
-qml.root.node.function("nameOrId", [
+qml.root.set("nameOrId", [
   'function nameOrId(name, id, numDigits) {',
   '    if (name.length) {',
   '        numDigits = numDigits || 4;',
